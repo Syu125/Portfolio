@@ -27,7 +27,7 @@
 /* hero background image */
 .bgimage {
     height: 100vh;
-    background: url('images/cover_photo.jpg');
+    background: url('images/cover_photo2.jpg');
     background-size: cover;
     position: relative;
     animation-name: fadeIn100;
