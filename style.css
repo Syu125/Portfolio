@@ -146,10 +146,10 @@
     font-size: 36px;
     cursor: pointer;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+.fa-facebook:hover,.fa-instagram:hover,.fa-linkedin:hover,.fa-github {
     color: #cfaf8d;
 }
-.fab {
+.fab,.fa-brands{
     color: #000000;
 }
 
