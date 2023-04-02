@@ -1,0 +1,160 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+    opacity: 0.8;
+    animation-name: fadeIn80;
+    animation-duration: 1s;
+}
+
+/* animations */
+@keyframes zoomOut {
+    from {font-size: 0rem;}
+    to {font-size: 20rem;}
+}
+@keyframes fadeIn100 {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+@keyframes fadeIn80 {
+    from {opacity: 0%;}
+    to {opacity: 80%;}
+}
+@keyframes fadeInText {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+/* hero background image */
+.bgimage {
+    height: 100vh;
+    background: url('images/cover_photo.jpg');
+    background-size: cover;
+    position: relative;
+    animation-name: fadeIn100;
+    animation-duration: 2s;
+}
+
+/* spacing on all sections */
+#about, #services, #portfolio {
+    margin-top: 4rem;
+    padding-top: 4rem;
+    animation-name: fadeIn100;
+    animation-duration: 2s;
+}
+#portfolio {
+    padding-bottom: 4rem;
+}
+/* text css above hero image */
+.hero_hi {
+    font-size: 20rem;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 5%;
+    width:10%;
+    animation-name: zoomOut;
+    animation-duration: 1s;
+}
+.hero_hi:hover {
+    font-size: 20rem;
+    color: #f0e8d3;
+    animation-name: fadeInText;
+    animation-duration: 0.5s;
+}
+.hero_title {
+    font-size: 4.5rem;
+    text-align: right;
+    padding-top: 8%;
+    padding-right: 5%;
+    color: white;
+}
+.hero_desc {
+    font-size: 2rem;
+    text-align: right;
+    padding-right: 5%;
+    color: white;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 80%;
+}
+
+/* services section css */
+.fa-brands {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card:hover .fa-brands {
+    color: #cfaf8d;
+}
+.fa-solid {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card:hover .fa-solid {
+    color: #cfaf8d;
+}
+.fa-regular {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card:hover .fa-regular {
+    color: #cfaf8d;
+}
+.servicesText.card {
+    height: 280px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card-text {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #cfaf8d;
+}
+.servicesText:hover {
+    border: 1px solid #cfaf8d;
+}
+/* navbar color */
+.navbar-brand {
+    color: white;
+    text-align: left;
+}
+.navbar li a {
+    font-size: 15px;
+    color: white;
+}
+.navbar a:hover {
+    font-size: 15px;
+    color: #e4d4c3;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #cfaf8d;
+}
+.fab {
+    color: #000000;
+}
+
+/* footer styling */
+#footer {
+    background-color: #ecdfce;
+    text-align: center;
+}
